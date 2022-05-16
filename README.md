@@ -5,8 +5,12 @@
 ## 学习资源
 
 * [官方学习文档](https://developer.apple.com/xcode/swiftui/)
+
 * [资源收集](https://github.com/Juanpe/About-SwiftUI)
-* [GitHub 学习文档]()
-* [多设备兼容](https://xiaozhuanlan.com/topic/1074925368)
-* [数据流](https://xiaozhuanlan.com/topic/0528764139)
+
+* [Kavsoft](https://kavsoft.dev/)
+
+  
+
+  
 
