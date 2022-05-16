@@ -1,33 +1,32 @@
 //
 //  ContentView.swift
-//  SwiftUIDemo
+//  KavsoftTutorial
 //
-//  Created by EthanZ on 2019/7/2.
-//  Copyright © 2019 Ethanz. All rights reserved.
+//  Created by EthanZ on 2021/7/13.
 //
 
 import SwiftUI
 
-struct ContentView : View {
+struct ContentView: View {
+    
     var body: some View {
-        NavigationView {
+        
+        NavigationView(content: {
             List{
-                Section(header: Text("控件").bold().font(.some(.system(size: 18)))) {
-                    
-                    NavigationButton(destination: TextPage()) {
-                        Text("Text")
-                    }
+                NavigationLink(destination: BaseViewList()) {
+                    Text("Base Views")
                 }
-            }.navigationBarTitle(Text("SwiftUI Study").color(.red), displayMode: .large)
-        }
+                
+                NavigationLink(destination: DemoList()) {
+                    Text("Demo Lists")
+                }
+               
+            }
+            .navigationTitle("列表")
+        })
+
+                
         
     }
 }
 
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-#endif
