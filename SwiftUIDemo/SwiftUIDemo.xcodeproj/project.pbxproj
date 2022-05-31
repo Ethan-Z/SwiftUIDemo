@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851FD8D28353E8F009D4A42 /* ViewTraining.swift */; };
 		988293B5281B8FD400DA1283 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 988293B4281B8FD400DA1283 /* SDWebImageSwiftUI */; };
 		98D9E7C026B1402200997160 /* SwipeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9E7BF26B1402200997160 /* SwipeMenu.swift */; };
 		98E4E03526AA63AD00838591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4E03426AA63AD00838591 /* AppDelegate.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9851FD8D28353E8F009D4A42 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
 		98D9E7BF26B1402200997160 /* SwipeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMenu.swift; sourceTree = "<group>"; };
 		98E4E03126AA63AD00838591 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E4E03426AA63AD00838591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9851FD8C28353E33009D4A42 /* TrainingGround */ = {
+			isa = PBXGroup;
+			children = (
+				9851FD8D28353E8F009D4A42 /* ViewTraining.swift */,
+			);
+			path = TrainingGround;
+			sourceTree = "<group>";
+		};
 		988293B3281B8FD400DA1283 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +157,7 @@
 		98E4E04E26AA644200838591 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9851FD8C28353E33009D4A42 /* TrainingGround */,
 				98F99C7D282652E200FD21F5 /* BaseViews */,
 				98F99C7C282652B600FD21F5 /* Demos */,
 			);
@@ -329,6 +340,7 @@
 				98E4E03526AA63AD00838591 /* AppDelegate.swift in Sources */,
 				98E4E05C26AA644200838591 /* UnSplashApp.swift in Sources */,
 				98E4E05F26AA644200838591 /* UnSplashApp2PhotoList.swift in Sources */,
+				9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */,
 				98D9E7C026B1402200997160 /* SwipeMenu.swift in Sources */,
 				98E4E06126AA644200838591 /* UnSplashApp2Menu.swift in Sources */,
 				98F99C7F2826532C00FD21F5 /* DemoList.swift in Sources */,
