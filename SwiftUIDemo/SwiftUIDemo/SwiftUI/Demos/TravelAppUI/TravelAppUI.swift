@@ -53,13 +53,13 @@ struct TravelAppUI: View {
                         .foregroundColor(.gray)
                     
                 }
-                .padding(.top, safeAreaInsets?.top)
+                .padding(.top, windowsSafeAreaInsets?.top)
                 .padding()
                 
                 GeometryReader{ g in
                     Carousel(data: $data, show: $show, index: $page, size: g.frame(in: .global))
                 }
-                .padding(.bottom, safeAreaInsets!.bottom + 10.0)
+                .padding(.bottom, windowsSafeAreaInsets!.bottom + 10.0)
                 
             }
             .opacity(show ? 0 : 1)
@@ -249,7 +249,7 @@ struct TravelAppUIExpendView : View {
                         .background(Color.black.opacity(0.83))
                         .clipShape(Circle())
                 }
-                .padding(.top, safeAreaInsets?.top)
+                .padding(.top, windowsSafeAreaInsets?.top)
                 .padding()
             }
             

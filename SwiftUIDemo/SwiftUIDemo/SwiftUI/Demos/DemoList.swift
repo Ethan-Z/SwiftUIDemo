@@ -32,6 +32,9 @@ struct DemoList: View {
                 NavigationLink(destination: SwipeMenu()){
                     Text("SwipeMenu")
                 }
+                NavigationLink(destination: Tiktok()){
+                    Text("Tiktok")
+                }
             }
             .navigationTitle("Demo List")
             

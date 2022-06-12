@@ -28,7 +28,7 @@ struct VerticalTabbar: View {
                 })
                 .padding(.top)
                 // 距离顶部安全区域的高度
-                .padding(.top, safeAreaInsets?.top)
+                .padding(.top, windowsSafeAreaInsets?.top)
                 
                 
                 Button(action: {
@@ -112,7 +112,7 @@ struct VerticalTabbar: View {
                             
                     })
                     .padding(.bottom)
-                    .padding(.bottom, safeAreaInsets?.bottom)
+                    .padding(.bottom, windowsSafeAreaInsets?.bottom)
                         
                         
                 }
@@ -138,8 +138,8 @@ struct VerticalTabbar: View {
                         EmptyView()
                     }
                 }
-                .padding(.top, safeAreaInsets?.top)
-                .padding(.bottom, safeAreaInsets?.bottom)
+                .padding(.top, windowsSafeAreaInsets?.top)
+                .padding(.bottom, windowsSafeAreaInsets?.bottom)
                 
             }
             

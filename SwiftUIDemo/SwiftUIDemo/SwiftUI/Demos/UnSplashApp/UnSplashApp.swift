@@ -92,7 +92,7 @@ struct UnSplashApp: View {
 
                 
             }
-            .padding(.top, safeAreaInsets?.top)
+            .padding(.top, windowsSafeAreaInsets?.top)
             .padding()
             .background(Color.white)
             

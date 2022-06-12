@@ -33,7 +33,7 @@ struct TodoList: View {
                 
                 VStack{
                     Spacer()
-                        .frame(height: safeAreaInsets?.top)
+                        .frame(height: windowsSafeAreaInsets?.top)
                     
                     HStack{
                         

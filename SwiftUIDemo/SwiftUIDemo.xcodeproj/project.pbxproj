@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851FD8D28353E8F009D4A42 /* ViewTraining.swift */; };
 		988293B5281B8FD400DA1283 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 988293B4281B8FD400DA1283 /* SDWebImageSwiftUI */; };
+		98B275B92847A72300A7637F /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B32847A72100A7637F /* video1.mp4 */; };
+		98B275BA2847A72300A7637F /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B42847A72200A7637F /* video2.mp4 */; };
+		98B275BB2847A72300A7637F /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B52847A72200A7637F /* video4.mp4 */; };
+		98B275BC2847A72300A7637F /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B62847A72200A7637F /* video3.mp4 */; };
+		98B275BD2847A72300A7637F /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B72847A72300A7637F /* video5.mp4 */; };
+		98B275BE2847A72300A7637F /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B82847A72300A7637F /* video6.mp4 */; };
+		98B275C12847A9F300A7637F /* Tiktok.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B275C02847A9F300A7637F /* Tiktok.swift */; };
 		98D9E7C026B1402200997160 /* SwipeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9E7BF26B1402200997160 /* SwipeMenu.swift */; };
 		98E4E03526AA63AD00838591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4E03426AA63AD00838591 /* AppDelegate.swift */; };
 		98E4E03726AA63AD00838591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4E03626AA63AD00838591 /* SceneDelegate.swift */; };
@@ -35,6 +42,13 @@
 
 /* Begin PBXFileReference section */
 		9851FD8D28353E8F009D4A42 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
+		98B275B32847A72100A7637F /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		98B275B42847A72200A7637F /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		98B275B52847A72200A7637F /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		98B275B62847A72200A7637F /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		98B275B72847A72300A7637F /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		98B275B82847A72300A7637F /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		98B275C02847A9F300A7637F /* Tiktok.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiktok.swift; sourceTree = "<group>"; };
 		98D9E7BF26B1402200997160 /* SwipeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMenu.swift; sourceTree = "<group>"; };
 		98E4E03126AA63AD00838591 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E4E03426AA63AD00838591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +102,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		98B275B12847A6E400A7637F /* video */ = {
+			isa = PBXGroup;
+			children = (
+				98B275B22847A6F700A7637F /* tikto */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		98B275B22847A6F700A7637F /* tikto */ = {
+			isa = PBXGroup;
+			children = (
+				98B275B32847A72100A7637F /* video1.mp4 */,
+				98B275B42847A72200A7637F /* video2.mp4 */,
+				98B275B62847A72200A7637F /* video3.mp4 */,
+				98B275B52847A72200A7637F /* video4.mp4 */,
+				98B275B72847A72300A7637F /* video5.mp4 */,
+				98B275B82847A72300A7637F /* video6.mp4 */,
+			);
+			path = tikto;
+			sourceTree = "<group>";
+		};
+		98B275BF2847A73900A7637F /* Tiktok */ = {
+			isa = PBXGroup;
+			children = (
+				98B275C02847A9F300A7637F /* Tiktok.swift */,
+			);
+			path = Tiktok;
+			sourceTree = "<group>";
+		};
 		98D9E7BE26B13FF100997160 /* SwipeMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +181,7 @@
 		98E4E04B26AA63BE00838591 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				98B275B12847A6E400A7637F /* video */,
 				98E4E04226AA63AE00838591 /* LaunchScreen.storyboard */,
 				98E4E03D26AA63AE00838591 /* Assets.xcassets */,
 				98E4E04526AA63AE00838591 /* Info.plist */,
@@ -226,6 +270,7 @@
 		98F99C7C282652B600FD21F5 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				98B275BF2847A73900A7637F /* Tiktok */,
 				98D9E7BE26B13FF100997160 /* SwipeMenu */,
 				98E4E06A26AA934E00838591 /* BGTimer */,
 				98E4E04F26AA644200838591 /* VerticalTabbar */,
@@ -319,9 +364,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B275BB2847A72300A7637F /* video4.mp4 in Resources */,
 				98E4E04426AA63AE00838591 /* LaunchScreen.storyboard in Resources */,
+				98B275B92847A72300A7637F /* video1.mp4 in Resources */,
 				98E4E04126AA63AE00838591 /* Preview Assets.xcassets in Resources */,
+				98B275BA2847A72300A7637F /* video2.mp4 in Resources */,
+				98B275BD2847A72300A7637F /* video5.mp4 in Resources */,
 				98E4E03E26AA63AE00838591 /* Assets.xcassets in Resources */,
+				98B275BE2847A72300A7637F /* video6.mp4 in Resources */,
+				98B275BC2847A72300A7637F /* video3.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +392,7 @@
 				98E4E05C26AA644200838591 /* UnSplashApp.swift in Sources */,
 				98E4E05F26AA644200838591 /* UnSplashApp2PhotoList.swift in Sources */,
 				9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */,
+				98B275C12847A9F300A7637F /* Tiktok.swift in Sources */,
 				98D9E7C026B1402200997160 /* SwipeMenu.swift in Sources */,
 				98E4E06126AA644200838591 /* UnSplashApp2Menu.swift in Sources */,
 				98F99C7F2826532C00FD21F5 /* DemoList.swift in Sources */,
