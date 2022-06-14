@@ -10,6 +10,11 @@ import Combine
 
 extension View {
     
+    
+  
+    
+    
+    
     var windowsSafeAreaInsets : UIEdgeInsets? {
     
         let windouScene = UIApplication.shared.connectedScenes.filter{$0 is UIWindowScene}.first as? UIWindowScene

@@ -35,6 +35,9 @@ struct DemoList: View {
                 NavigationLink(destination: Tiktok()){
                     Text("Tiktok")
                 }
+                NavigationLink(destination: StickyHeader()){
+                    Text("StickyHeader")
+                }
             }
             .navigationTitle("Demo List")
             
