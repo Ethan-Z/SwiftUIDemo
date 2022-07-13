@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9817CD54287EA2F1004176D6 /* SteamUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817CD53287EA2F1004176D6 /* SteamUI.swift */; };
 		9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851FD8D28353E8F009D4A42 /* ViewTraining.swift */; };
 		988293B5281B8FD400DA1283 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 988293B4281B8FD400DA1283 /* SDWebImageSwiftUI */; };
 		98B275B92847A72300A7637F /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B32847A72100A7637F /* video1.mp4 */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9817CD53287EA2F1004176D6 /* SteamUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamUI.swift; sourceTree = "<group>"; };
 		9851FD8D28353E8F009D4A42 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
 		98B275B32847A72100A7637F /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		98B275B42847A72200A7637F /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9817CD52287EA2C4004176D6 /* SteamUI */ = {
+			isa = PBXGroup;
+			children = (
+				9817CD53287EA2F1004176D6 /* SteamUI.swift */,
+			);
+			path = SteamUI;
+			sourceTree = "<group>";
+		};
 		9851FD8C28353E33009D4A42 /* TrainingGround */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +290,7 @@
 		98F99C7C282652B600FD21F5 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				9817CD52287EA2C4004176D6 /* SteamUI */,
 				98B275C2285675C000A7637F /* StickyHeader */,
 				98B275BF2847A73900A7637F /* Tiktok */,
 				98D9E7BE26B13FF100997160 /* SwipeMenu */,
@@ -399,6 +410,7 @@
 				98E4E05D26AA644200838591 /* TodoList.swift in Sources */,
 				98E4E03C26AA63AD00838591 /* SwiftUIDemo.xcdatamodeld in Sources */,
 				98E4E06C26AA936300838591 /* BGTimer.swift in Sources */,
+				9817CD54287EA2F1004176D6 /* SteamUI.swift in Sources */,
 				98E4E03526AA63AD00838591 /* AppDelegate.swift in Sources */,
 				98E4E05C26AA644200838591 /* UnSplashApp.swift in Sources */,
 				98E4E05F26AA644200838591 /* UnSplashApp2PhotoList.swift in Sources */,

@@ -38,6 +38,9 @@ struct DemoList: View {
                 NavigationLink(destination: StickyHeader()){
                     Text("StickyHeader")
                 }
+                NavigationLink(destination: SteamUI()){
+                    Text("SteamUI")
+                }
             }
             .navigationTitle("Demo List")
             
