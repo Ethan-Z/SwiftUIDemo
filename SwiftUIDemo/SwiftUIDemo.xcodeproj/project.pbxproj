@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98003DDE2880199100C5E814 /* SpeedoMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98003DDD2880199100C5E814 /* SpeedoMeter.swift */; };
+		98003DE028801B4F00C5E814 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98003DDF28801B4F00C5E814 /* ColorExtension.swift */; };
 		9817CD54287EA2F1004176D6 /* SteamUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817CD53287EA2F1004176D6 /* SteamUI.swift */; };
 		9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851FD8D28353E8F009D4A42 /* ViewTraining.swift */; };
 		988293B5281B8FD400DA1283 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 988293B4281B8FD400DA1283 /* SDWebImageSwiftUI */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98003DDD2880199100C5E814 /* SpeedoMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedoMeter.swift; sourceTree = "<group>"; };
+		98003DDF28801B4F00C5E814 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		9817CD53287EA2F1004176D6 /* SteamUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamUI.swift; sourceTree = "<group>"; };
 		9851FD8D28353E8F009D4A42 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
 		98B275B32847A72100A7637F /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
@@ -91,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98003DDC2880196600C5E814 /* SpeedoMeter */ = {
+			isa = PBXGroup;
+			children = (
+				98003DDD2880199100C5E814 /* SpeedoMeter.swift */,
+			);
+			path = SpeedoMeter;
+			sourceTree = "<group>";
+		};
 		9817CD52287EA2C4004176D6 /* SteamUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +287,7 @@
 			children = (
 				98E4E06326AA644C00838591 /* RectCornerShape.swift */,
 				98E4E06426AA644C00838591 /* View+Extension.swift */,
+				98003DDF28801B4F00C5E814 /* ColorExtension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -290,6 +303,7 @@
 		98F99C7C282652B600FD21F5 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				98003DDC2880196600C5E814 /* SpeedoMeter */,
 				9817CD52287EA2C4004176D6 /* SteamUI */,
 				98B275C2285675C000A7637F /* StickyHeader */,
 				98B275BF2847A73900A7637F /* Tiktok */,
@@ -409,11 +423,13 @@
 				98E4E05E26AA644200838591 /* TravelAppUI.swift in Sources */,
 				98E4E05D26AA644200838591 /* TodoList.swift in Sources */,
 				98E4E03C26AA63AD00838591 /* SwiftUIDemo.xcdatamodeld in Sources */,
+				98003DE028801B4F00C5E814 /* ColorExtension.swift in Sources */,
 				98E4E06C26AA936300838591 /* BGTimer.swift in Sources */,
 				9817CD54287EA2F1004176D6 /* SteamUI.swift in Sources */,
 				98E4E03526AA63AD00838591 /* AppDelegate.swift in Sources */,
 				98E4E05C26AA644200838591 /* UnSplashApp.swift in Sources */,
 				98E4E05F26AA644200838591 /* UnSplashApp2PhotoList.swift in Sources */,
+				98003DDE2880199100C5E814 /* SpeedoMeter.swift in Sources */,
 				9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */,
 				98B275C12847A9F300A7637F /* Tiktok.swift in Sources */,
 				98D9E7C026B1402200997160 /* SwipeMenu.swift in Sources */,

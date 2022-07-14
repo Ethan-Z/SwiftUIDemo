@@ -41,6 +41,9 @@ struct DemoList: View {
                 NavigationLink(destination: SteamUI()){
                     Text("SteamUI")
                 }
+                NavigationLink(destination: SpeedoMeter()){
+                    Text("SpeedoMeter")
+                }
             }
             .navigationTitle("Demo List")
             
