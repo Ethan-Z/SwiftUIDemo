@@ -37,6 +37,10 @@ struct DemoList: View {
                     NavigationLink(destination: SteamUI()){
                         Text("SteamUI")
                     }
+                    
+                    NavigationLink(destination: SegmentTab()){
+                        Text("SegmentTab")
+                    }
                 } header: {
                     Text("DemoView")
                 }

@@ -12,6 +12,7 @@
 		9817CD54287EA2F1004176D6 /* SteamUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817CD53287EA2F1004176D6 /* SteamUI.swift */; };
 		9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851FD8D28353E8F009D4A42 /* ViewTraining.swift */; };
 		985C91CB288561C90058C554 /* SimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C91CA288561C90058C554 /* SimmerEffect.swift */; };
+		985C91CE2887A6E30058C554 /* SegmentTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C91CD2887A6E30058C554 /* SegmentTab.swift */; };
 		988293B5281B8FD400DA1283 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 988293B4281B8FD400DA1283 /* SDWebImageSwiftUI */; };
 		98B275B92847A72300A7637F /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B32847A72100A7637F /* video1.mp4 */; };
 		98B275BA2847A72300A7637F /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B42847A72200A7637F /* video2.mp4 */; };
@@ -51,6 +52,7 @@
 		9817CD53287EA2F1004176D6 /* SteamUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamUI.swift; sourceTree = "<group>"; };
 		9851FD8D28353E8F009D4A42 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
 		985C91CA288561C90058C554 /* SimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimmerEffect.swift; sourceTree = "<group>"; };
+		985C91CD2887A6E30058C554 /* SegmentTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTab.swift; sourceTree = "<group>"; };
 		98B275B32847A72100A7637F /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		98B275B42847A72200A7637F /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 		98B275B52847A72200A7637F /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
@@ -127,6 +129,14 @@
 				985C91CA288561C90058C554 /* SimmerEffect.swift */,
 			);
 			path = SimmerEffect;
+			sourceTree = "<group>";
+		};
+		985C91CC2887A6C60058C554 /* SegmentTab */ = {
+			isa = PBXGroup;
+			children = (
+				985C91CD2887A6E30058C554 /* SegmentTab.swift */,
+			);
+			path = SegmentTab;
 			sourceTree = "<group>";
 		};
 		988293B3281B8FD400DA1283 /* Frameworks */ = {
@@ -313,6 +323,7 @@
 		98F99C7C282652B600FD21F5 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				985C91CC2887A6C60058C554 /* SegmentTab */,
 				985C91C9288561780058C554 /* SimmerEffect */,
 				98003DDC2880196600C5E814 /* SpeedoMeter */,
 				9817CD52287EA2C4004176D6 /* SteamUI */,
@@ -430,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985C91CE2887A6E30058C554 /* SegmentTab.swift in Sources */,
 				98E4E05B26AA644200838591 /* VerticalTabbar.swift in Sources */,
 				98E4E05E26AA644200838591 /* TravelAppUI.swift in Sources */,
 				98E4E05D26AA644200838591 /* TodoList.swift in Sources */,

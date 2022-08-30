@@ -24,7 +24,7 @@ struct SteamUI: View {
             Button {
                 presentMode.wrappedValue.dismiss()
             } label: {
-                Text("Search").foregroundColor(.white)
+                Text("Back").foregroundColor(.white)
             }
             .tabItem {
                 Image("tab_search")
