@@ -14,6 +14,7 @@
 		985C91CB288561C90058C554 /* SimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C91CA288561C90058C554 /* SimmerEffect.swift */; };
 		985C91CE2887A6E30058C554 /* SegmentTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C91CD2887A6E30058C554 /* SegmentTab.swift */; };
 		988293B5281B8FD400DA1283 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 988293B4281B8FD400DA1283 /* SDWebImageSwiftUI */; };
+		98891E5328C0447D008BA5C7 /* ResizableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98891E5228C0447C008BA5C7 /* ResizableHeader.swift */; };
 		98B275B92847A72300A7637F /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B32847A72100A7637F /* video1.mp4 */; };
 		98B275BA2847A72300A7637F /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B42847A72200A7637F /* video2.mp4 */; };
 		98B275BB2847A72300A7637F /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B275B52847A72200A7637F /* video4.mp4 */; };
@@ -53,6 +54,7 @@
 		9851FD8D28353E8F009D4A42 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
 		985C91CA288561C90058C554 /* SimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimmerEffect.swift; sourceTree = "<group>"; };
 		985C91CD2887A6E30058C554 /* SegmentTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTab.swift; sourceTree = "<group>"; };
+		98891E5228C0447C008BA5C7 /* ResizableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableHeader.swift; sourceTree = "<group>"; };
 		98B275B32847A72100A7637F /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		98B275B42847A72200A7637F /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 		98B275B52847A72200A7637F /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
@@ -144,6 +146,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98891E5128BF0CA8008BA5C7 /* ResizableHeader */ = {
+			isa = PBXGroup;
+			children = (
+				98891E5228C0447C008BA5C7 /* ResizableHeader.swift */,
+			);
+			path = ResizableHeader;
 			sourceTree = "<group>";
 		};
 		98B275B12847A6E400A7637F /* video */ = {
@@ -323,6 +333,7 @@
 		98F99C7C282652B600FD21F5 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				98891E5128BF0CA8008BA5C7 /* ResizableHeader */,
 				985C91CC2887A6C60058C554 /* SegmentTab */,
 				985C91C9288561780058C554 /* SimmerEffect */,
 				98003DDC2880196600C5E814 /* SpeedoMeter */,
@@ -447,6 +458,7 @@
 				98E4E05D26AA644200838591 /* TodoList.swift in Sources */,
 				98E4E03C26AA63AD00838591 /* SwiftUIDemo.xcdatamodeld in Sources */,
 				98003DE028801B4F00C5E814 /* ColorExtension.swift in Sources */,
+				98891E5328C0447D008BA5C7 /* ResizableHeader.swift in Sources */,
 				98E4E06C26AA936300838591 /* BGTimer.swift in Sources */,
 				9817CD54287EA2F1004176D6 /* SteamUI.swift in Sources */,
 				98E4E03526AA63AD00838591 /* AppDelegate.swift in Sources */,

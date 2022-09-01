@@ -41,6 +41,9 @@ struct DemoList: View {
                     NavigationLink(destination: SegmentTab()){
                         Text("SegmentTab")
                     }
+                    NavigationLink(destination: ResizableHeader()){
+                        Text("ResizableHeader")
+                    }
                 } header: {
                     Text("DemoView")
                 }
