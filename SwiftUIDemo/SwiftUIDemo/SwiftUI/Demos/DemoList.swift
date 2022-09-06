@@ -44,11 +44,19 @@ struct DemoList: View {
                     NavigationLink(destination: ResizableHeader()){
                         Text("ResizableHeader")
                     }
+                  
                 } header: {
-                    Text("DemoView")
+                    Text("DemoView1")
+                }
+                
+                Section {
+                    NavigationLink(destination: PlayStation5UI()) {
+                        Text("PlayStation5UI")
+                    }
+                } header: {
+                    Text("DemoView2")
                 }
 
-                
                 Section {
                     NavigationLink(destination: SpeedoMeter()){
                         Text("SpeedoMeter")

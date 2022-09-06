@@ -10,6 +10,7 @@
 		98003DDE2880199100C5E814 /* SpeedoMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98003DDD2880199100C5E814 /* SpeedoMeter.swift */; };
 		98003DE028801B4F00C5E814 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98003DDF28801B4F00C5E814 /* ColorExtension.swift */; };
 		9817CD54287EA2F1004176D6 /* SteamUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817CD53287EA2F1004176D6 /* SteamUI.swift */; };
+		9832708C28C6E5AD00F0EE2D /* PlayStation5UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832708B28C6E5AD00F0EE2D /* PlayStation5UI.swift */; };
 		9851FD8E28353E8F009D4A42 /* ViewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851FD8D28353E8F009D4A42 /* ViewTraining.swift */; };
 		985C91CB288561C90058C554 /* SimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C91CA288561C90058C554 /* SimmerEffect.swift */; };
 		985C91CE2887A6E30058C554 /* SegmentTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C91CD2887A6E30058C554 /* SegmentTab.swift */; };
@@ -51,6 +52,7 @@
 		98003DDD2880199100C5E814 /* SpeedoMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedoMeter.swift; sourceTree = "<group>"; };
 		98003DDF28801B4F00C5E814 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		9817CD53287EA2F1004176D6 /* SteamUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamUI.swift; sourceTree = "<group>"; };
+		9832708B28C6E5AD00F0EE2D /* PlayStation5UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayStation5UI.swift; sourceTree = "<group>"; };
 		9851FD8D28353E8F009D4A42 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
 		985C91CA288561C90058C554 /* SimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimmerEffect.swift; sourceTree = "<group>"; };
 		985C91CD2887A6E30058C554 /* SegmentTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTab.swift; sourceTree = "<group>"; };
@@ -115,6 +117,14 @@
 				9817CD53287EA2F1004176D6 /* SteamUI.swift */,
 			);
 			path = SteamUI;
+			sourceTree = "<group>";
+		};
+		9832708A28C6E59000F0EE2D /* PlayStation5UI */ = {
+			isa = PBXGroup;
+			children = (
+				9832708B28C6E5AD00F0EE2D /* PlayStation5UI.swift */,
+			);
+			path = PlayStation5UI;
 			sourceTree = "<group>";
 		};
 		9851FD8C28353E33009D4A42 /* TrainingGround */ = {
@@ -333,6 +343,7 @@
 		98F99C7C282652B600FD21F5 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				9832708A28C6E59000F0EE2D /* PlayStation5UI */,
 				98891E5128BF0CA8008BA5C7 /* ResizableHeader */,
 				985C91CC2887A6C60058C554 /* SegmentTab */,
 				985C91C9288561780058C554 /* SimmerEffect */,
@@ -460,6 +471,7 @@
 				98003DE028801B4F00C5E814 /* ColorExtension.swift in Sources */,
 				98891E5328C0447D008BA5C7 /* ResizableHeader.swift in Sources */,
 				98E4E06C26AA936300838591 /* BGTimer.swift in Sources */,
+				9832708C28C6E5AD00F0EE2D /* PlayStation5UI.swift in Sources */,
 				9817CD54287EA2F1004176D6 /* SteamUI.swift in Sources */,
 				98E4E03526AA63AD00838591 /* AppDelegate.swift in Sources */,
 				98E4E05C26AA644200838591 /* UnSplashApp.swift in Sources */,
@@ -622,7 +634,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = U3RJ67534G;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIDemo/Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -644,7 +656,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = U3RJ67534G;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIDemo/Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
